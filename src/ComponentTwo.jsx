@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ComponentTwo extends Component {
-    render() {
-        return (
-            <h2>Это второй компонент!</h2>
-        );
-    }
-}
+const ComponentTwo = () => {
+    return (
+        <h2>Это второй компонент!</h2>
+    );
+};
 
 export default ComponentTwo;
