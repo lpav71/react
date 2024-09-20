@@ -7,8 +7,6 @@ import ComponentOne from './src/ComponentOne';
 import ComponentTwo from './src/ComponentTwo';
 
 const App = () => {
-    const welcome = "Кнопка";
-
     return (
         <div>
             <h1 className='mb-3' style={{ margin: '20px auto', width: '642px' }}>
